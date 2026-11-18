@@ -1,0 +1,16 @@
+{
+  "name": "attendance-cypress",
+  "version": "1.0.0",
+  "description": "Attendance Management System tested with Cypress",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "cypress run"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "cypress": "^16.3.0"
+  }
+}
